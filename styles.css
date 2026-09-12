@@ -2,11 +2,15 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background: #4a90d9;
+    background: #6ad05e;
 }
 
 .square {
     width: 80px;
     height: 80px;
-    background: red;
+    background: rgb(237, 125, 198);
+}
+
+.square:hover {
+    transform: translateX(60px);
 }
